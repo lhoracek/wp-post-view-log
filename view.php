@@ -59,9 +59,8 @@ $tabledata = $wpdb->get_results($select);
 		<th class="manage-column column-title" scope="col" width="50">Serial</th>
 		<th class="manage-column column-title" scope="col" width="50">Post ID</th>
 		<th class="manage-column column-title" scope="col">Post Title</th>
-		<th class="manage-column column-title" scope="col" width="100">Author</th>
-		<th class="manage-column column-title" scope="col" width="70">Comment</th>
-		<th class="manage-column column-title" scope="col" width="50">Views</th>
+		<th class="manage-column column-title" scope="col" width="100">User</th>
+		<th class="manage-column column-title" scope="col" width="70">Date</th>
 	</tr>
 	</tr>
 	</tfoot>

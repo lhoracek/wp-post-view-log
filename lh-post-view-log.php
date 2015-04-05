@@ -46,15 +46,7 @@ function lh_pvl_view_post_fn() {
 	echo $out1;
 }
 
-function lh_pvl_most_popular($num) { 
-	ob_start();
-	include_once('view-most-popular.php');
-	$out1 = ob_get_contents();
-	ob_end_clean();	
-	return $out1;
-}
-
-function track_post_view() {
+function log_post_view() {
  
 	global $post,$wpdb;
 	if(is_single())
